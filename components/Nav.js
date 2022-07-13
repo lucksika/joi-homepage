@@ -39,7 +39,7 @@ function Nav() {
                     <ThemeButton/>
                     <NextLink href="#contact-seciton">
                         <Button colorScheme="blue" variant="outline">
-                            Le&apos;s chat
+                            Let&apos;s chat
                         </Button>
                     </NextLink>
                     
