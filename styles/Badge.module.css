@@ -1,0 +1,30 @@
+.container {
+    background-color: #EEC643;
+    border-radius: 5px;
+    padding: 3px 5px;
+    width: fit-content;
+    margin: 0;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+.yellow {
+    background-color: #ECE6D2;
+    color: #A1821D;
+}
+
+.red {
+    color: #A11D28;
+    background-color: #ECD2D4;
+}
+
+.green {
+    color: #05A129;
+    background-color: #CDECD4;
+}
+
+.blue {
+    color: #0D21A1;
+    background-color: #CFD3EC;
+}
