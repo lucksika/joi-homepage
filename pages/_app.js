@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
       <Layout>
         <Head>
           <style>
-          @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Lato:wght@400;600;700&family=Quicksand:wght@400;600;700&display=swap');
+          @import url(&apos;https://fonts.googleapis.com/css2?family=Poppins&family=Lato:wght@400;600;700&family=Quicksand:wght@400;600;700&display=swap&apos;)
           </style>
         </Head>
         <Component {...pageProps} />

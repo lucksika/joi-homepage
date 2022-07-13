@@ -1,14 +1,14 @@
-import NextLink from 'next/link';
+import NextLink from "next/link";
 
-import { Flex, Box, Heading, Text, Icon, Button, Link} from '@chakra-ui/react';
-import ThemeButton from './ThemeButton';
+import { Flex, Box, Heading, Text, Icon, Button, Link} from "@chakra-ui/react";
+import ThemeButton from "./ThemeButton";
 
 import styles from "../styles/Nav.module.css";
 import button_styles from "../styles/Button.module.css";
 
 const pages = [
-    {name: 'About me', path: '/'},
-    {name: 'Blog', path: 'blog'}
+    {name: "About me", path: "/"},
+    {name: "Blog", path: "blog"}
 ]
 
 function Nav() {
@@ -26,7 +26,7 @@ function Nav() {
                             <Box key={item.path}>
                                 <NextLink href={item.path} passHref>
                                     {/* <a> {item.name} </a> */}
-                                    <Button variant='link'>
+                                    <Button variant="link">
                                         {item.name}
                                     </Button>
                                 </NextLink>
@@ -38,8 +38,8 @@ function Nav() {
                     
                     <ThemeButton/>
                     <NextLink href="#contact-seciton">
-                        <Button colorScheme='blue' variant='outline'>
-                            Let's chat
+                        <Button colorScheme="blue" variant="outline">
+                            Le&apos;s chat
                         </Button>
                     </NextLink>
                     
