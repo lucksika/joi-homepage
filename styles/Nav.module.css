@@ -20,6 +20,11 @@
     font-weight: 900;
 }
 
+.surname {
+    font-size: 25px;
+    font-weight: 900;
+}
+
 .paths {
     display: flex;
     align-items: baseline;

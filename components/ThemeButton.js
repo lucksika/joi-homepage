@@ -14,7 +14,7 @@ function ThemeButton() {
       aria-label="Toggle theme"
       variant="unstyled"
       icon={useColorModeValue(
-        <Icon as={BsMoonFill} w={6} h={6} color="#0D21A1"/>,
+        <Icon as={BsMoonFill} w={6} h={6} color="#0F52BA"/>,
         <Icon as={BsSunFill} w={6} h={6} color="#EEC643"/>
       )}
       onClick={toggleColorMode}

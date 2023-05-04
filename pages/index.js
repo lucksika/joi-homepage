@@ -56,11 +56,11 @@ export default function Home() {
         <meta name="og:title" content="Homepage"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Container p={20} maxW='900px'>
+      <Container p={8} maxW='900px'>
         <Flex flexDirection="column" alignItems="center" gap={10}>
           <Box textAlign="center">
-            <Heading fontSize={60} fontWeight={900}>
-                Hi, my name is Joi
+            <Heading  fontWeight={900}>
+                <Text fontSize={{sm:"40px", base: "60px"}}>Hi, my name is Joi</Text>
               </Heading>
               <Text fontSize={25} p={5}>I am a developer! 🧑🏻‍💻 </Text>
           </Box>
@@ -110,7 +110,24 @@ export default function Home() {
                 </Text>
               </Section>
             </div>
-              
+            
+            <div className={styles.profile_text}>
+            <Section delay={0.1}>
+                <Heading variant="title">Side projects</Heading>
+                <Flex alignItems="center" gap={2}>
+                  <Image 
+                    src="/images/pomo_logo.png"
+                    borderRadius='full'
+                    boxSize='25px'
+                    alt='pomo-omega'
+                  />
+                  <Link href="https://pomo-omega.vercel.app/" fontSize={16}>
+                    Pomo
+                  </Link>
+                </Flex>
+              </Section>
+            </div>
+
             <div id="contact-seciton" className={styles.profile_text}>
               <Section delay={0.1}>
                 <Heading variant="title">Contact me</Heading>
