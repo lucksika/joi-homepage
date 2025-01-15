@@ -79,13 +79,14 @@ export default function Home() {
             <Section delay={0.1}>
               <Heading variant="title">Work</Heading>
               <Text fontSize={16}>
-                &emsp;I am currently a{" "}
-                <Badge text="data scientist" color="yellow" /> with experience
-                not only in analysis but also in{" "}
-                <Badge text="design (UX/UI)" color="green" />,{" "}
-                <Badge text="coding" color="red" /> and{" "}
-                <Badge text="software development" color="blue" />. I am
-                responsible for building data pipelines, designing applications
+                &emsp;I am a{" "}
+                <Badge text="software developer" color="yellow" /> with a strong foundation in {" "}
+                <Badge text="data science" color="green" />,{" "} bringing expertise not only in
+                <Badge text="data analysis" color="red" /> but also in{" "}
+                <Badge text="UX/UI design" color="blue" />, 
+                <Badge text="coding" color="yellow" />, and 
+                <Badge text="full-stack software development" color="green" />. 
+                I am responsible for building data pipelines, designing applications
                 and developing applications; the experiences have given me
                 creativity, teamwork skill and self-supervision. I am able to
                 communicate in Thai and English.
@@ -172,6 +173,20 @@ export default function Home() {
                     fontSize={16}
                   >
                     Fun Fact!
+                  </Link>
+                </Flex>
+                <Flex alignItems="center" gap={2}>
+                  <Image
+                    src="/images/quick_jot_logo.png"
+                    borderRadius="full"
+                    boxSize="25px"
+                    alt="quick-jot-six"
+                  />
+                  <Link
+                    href="https://quick-jot-six.vercel.app/"
+                    fontSize={16}
+                  >
+                    QuickJot
                   </Link>
                 </Flex>
               </Flex>
