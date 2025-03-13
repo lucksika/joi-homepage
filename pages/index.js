@@ -189,6 +189,20 @@ export default function Home() {
                     QuickJot
                   </Link>
                 </Flex>
+                <Flex alignItems="center" gap={2}>
+                  <Image
+                    src="/images/writedoo.png"
+                    borderRadius="full"
+                    boxSize="25px"
+                    alt="writedoo"
+                  />
+                  <Link
+                    href="https://writedoo.vercel.app/"
+                    fontSize={16}
+                  >
+                    writedoo
+                  </Link>
+                </Flex>
               </Flex>
             </Section>
           </div>
